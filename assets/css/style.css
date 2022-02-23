@@ -208,7 +208,7 @@ h6 {
 }
 
 #header .logo img {
-    max-height: 40px;
+    max-height: 140px;
 }
 
 
@@ -779,7 +779,7 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-    background: url("../img/about-bg.jpg") center center;
+    background: url("../img/interieurshot2.jpg") center center;
     background-size: cover;
     position: relative;
     padding: 80px 0;
@@ -959,7 +959,7 @@ section {
 }
 
 .menu .menu-item {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .menu .menu-img {

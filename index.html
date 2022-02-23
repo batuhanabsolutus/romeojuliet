@@ -49,9 +49,9 @@
     <header id="header" class="fixed-top d-flex align-items-cente">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-            <h1 class="logo me-auto me-lg-0"><a href="index.html">Romeo & Juliet</a></h1>
+            <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Romeo & Juliet</a></h1> -->
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+            <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo-rm-sm.png" alt="" class="img-fluid"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
@@ -119,9 +119,11 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
                         <div class="about-img">
-                            <img src="assets/img/about.jpg" alt="">
+                            <a href="assets/img/interieurshot1.jpg" class="gallery-lightbox">
+                                <img src="assets/img/interieurshot1.jpg" alt="" class="img-fluid">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -131,9 +133,8 @@
                             <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                             <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
                         </ul> -->
-                        <p class="pt-5">
-                            Bij Romeo & Juliet kunt u genieten van een authentiek uitgebreid Italiaanse menu in een sfeervol restaurant, de Italiaanse keuken gaat verder dan enkel pizza & pasta en dit kunt u merken aan de gerechten die Romeo & Juliet aanbiedt.<br>
-                            De team van Romeo & Juliet bestaat uit zeer ervaren en enthousiaste werknemers, zo heeft de chefkok ruim 25 jaar aan ervaring met het bereiden van smaakvolle gerechten.
+                        <p class="pt-2">
+                            Bij Romeo & Juliet kunt u genieten van een authentiek uitgebreid Italiaanse menu in een sfeervol restaurant, de Italiaanse keuken gaat verder dan enkel pizza & pasta en dit kunt u merken aan de gerechten die Romeo & Juliet aanbiedt.<br>                            De team van Romeo & Juliet bestaat uit zeer ervaren en enthousiaste werknemers, zo heeft de chefkok ruim 25 jaar aan ervaring met het bereiden van smaakvolle gerechten.
                         </p>
                     </div>
                 </div>
@@ -195,20 +196,22 @@
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="menu-flters">
-                            <li data-filter="*">Alle gerechten</li>
-                            <li data-filter=".filter-starters" class="filter-active">Voorgerechten</li>
-                            <li data-filter=".filter-salads">Salades</li>
-                            <li data-filter=".filter-specialty">Hoofdgerechten</li>
+                            <li data-filter="*" class="filter-active">Alle gerechten</li>
+                            <li data-filter=".filter-starters">Voorgerechten</li>
+                            <li data-filter=".filter-vlees">Vlees gerechten</li>
+                            <li data-filter=".filter-vis">Vis gerechten</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
+                    <!-- Voorgerechten -->
+
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">CARPACCIO CLASSICO</a><span>€11,95</span>
+                            <a>CARPACCIO CLASSICO</a><span>€11,95</span>
                         </div>
                         <div class="menu-ingredients">
                             Dungesneden ossenhaas met rucola, parmezaanse kaas & pijnboompitten
@@ -218,7 +221,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">CARPACCIO DI SALMONE</a><span>€10,95</span>
+                            <a>CARPACCIO DI SALMONE</a><span>€10,95</span>
                         </div>
                         <div class="menu-ingredients">
                             Carpaccio van gemarineerde zalm met kappertjes, olijven, rode ui en heerlijke frisse dressing
@@ -228,7 +231,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">INSALATA CAPRESE</a><span>€10.95</span>
+                            <a>INSALATA CAPRESE</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Mozzarella met verse basilicum, tomaat en pijnboompitten
@@ -238,7 +241,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">INSALATA DI TONNO</a><span>€10.95</span>
+                            <a>INSALATA DI TONNO</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Verse Tonijn, Sla, tomaat, rode ui en kappertjes
@@ -248,7 +251,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">PROSCUITTO CON MELONE</a><span>€10.95</span>
+                            <a>PROSCUITTO CON MELONE</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Parmaham met meloen
@@ -258,7 +261,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">INSALATA ROMEO & JULIET</a><span>€12.95</span>
+                            <a>INSALATA ROMEO & JULIET</a><span>€12.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Combinatie van carpaccio, Parmaham met meloen en insalata caprese
@@ -268,7 +271,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">HUMMUS</a><span>€9.95</span>
+                            <a>HUMMUS</a><span>€9.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Puree van kikkererwten,sesamzaadsaus en olijven geserveerd met brood
@@ -278,7 +281,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">FRITTURA DI CALAMARI</a><span>€10.95</span>
+                            <a>FRITTURA DI CALAMARI</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Gefrituurde inktvisringetjes
@@ -288,7 +291,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">INSALATA DI POLLO E ZUCCHINE</a><span>€10.95</span>
+                            <a>INSALATA DI POLLO E ZUCCHINE</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Salade van kip en courgette
@@ -298,7 +301,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">FORMAGGIO DI CAPRA CON INSALATA</a><span>€9.95</span>
+                            <a>FORMAGGIO DI CAPRA CON INSALATA</a><span>€9.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Salade met warme geitenkaas, honing en pijnboompitten
@@ -308,7 +311,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">FUNGHI RIPIENI DI CARNE</a><span>€9.95</span>
+                            <a>FUNGHI RIPIENI DI CARNE</a><span>€9.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Champignons gevuld me runder gehakt in tomatensaus
@@ -318,7 +321,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">SCAMPI DIABOLIQUE</a><span>€11.95</span>
+                            <a>SCAMPI DIABOLIQUE</a><span>€11.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Grote garnalen in kreeftensaus
@@ -328,7 +331,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">GUAZETTO DI COZZE</a><span>€10.95</span>
+                            <a>GUAZETTO DI COZZE</a><span>€10.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Mediterrane mosselen in Tomatensaus met heerlijke kruiden
@@ -338,7 +341,7 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">ZUPPA DI POMODORO</a><span>€5.95</span>
+                            <a>ZUPPA DI POMODORO</a><span>€5.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Tomatensoep
@@ -348,72 +351,187 @@
                     <div class="col-lg-6 menu-item filter-starters">
                         <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">ZUPPA DELLA SETTIMANA</a><span>€6.95</span>
+                            <a>ZUPPA DELLA SETTIMANA</a><span>€6.95</span>
                         </div>
                         <div class="menu-ingredients">
                             Soep van de week
                         </div>
                     </div>
 
-                    <div class="col-lg-6 menu-item filter-specialty">
-                        <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-                        <div class="menu-content">
-                            <a href="#">Bread Barrel</a><span>$6.95</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Lorem, deren, trataro, filede, nerada
-                        </div>
-                    </div>
+                    <!-- EINDE voorgerechten -->
 
-                    <div class="col-lg-6 menu-item filter-salads">
+
+                    <!-- Vlees gerechten -->
+
+                    <div class="col-lg-6 menu-item filter-vlees">
                         <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">Caesar Selections</a><span>$8.95</span>
+                            <a>FILETTO ROMEO & JULIET</a><span>€24.95</span>
                         </div>
                         <div class="menu-ingredients">
-                            Lorem, deren, trataro, filede, nerada
+                            Tournedos met pepersaus
                         </div>
                     </div>
 
-                    <div class="col-lg-6 menu-item filter-specialty">
-                        <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">Tuscan Grilled</a><span>$9.95</span>
+                            <a>OSSOBUCO</a><span>€23.95</span>
                         </div>
                         <div class="menu-ingredients">
-                            Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+                            Gestoofd kalfsschenkel In het traditionele Milanese recept
                         </div>
                     </div>
 
-                    <div class="col-lg-6 menu-item filter-salads">
-                        <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">Greek Salad</a><span>$9.95</span>
+                            <a>MISTO DI CARNE</a><span>€24.95</span>
                         </div>
                         <div class="menu-ingredients">
-                            Fresh spinach, crisp romaine, tomatoes, and Greek olives
+                            Verschillende soorten vlees: lamsvlees, kalfsvlees, rundvlees en kip filet van de grill
                         </div>
                     </div>
 
-                    <div class="col-lg-6 menu-item filter-salads">
-                        <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">Spinach Salad</a><span>$9.95</span>
+                            <a>SPEZZATINO DI MANZO</a><span>€20.95</span>
                         </div>
                         <div class="menu-ingredients">
-                            Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+                            Gestoofd rundvlees op Toscaanse wijze
                         </div>
                     </div>
 
-                    <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>RIBEYE ALLA GRIGLIA</a><span>€26.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Gegrilde ribeye steak met rode wijn saus
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>BISTECCA FIORENTINA</a><span>€28.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            T-Bone steak met chimichurri saus
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vlees">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>LOMBATA</a><span>€25.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Entrecote met rode wijn saus
+                        </div>
+                    </div>
+
+                    <!-- EINDE vlees gerechten -->
+
+                    <!-- Vis gerechten -->
+
+                    <div class="col-lg-6 menu-item filter-vis">
                         <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
                         <div class="menu-content">
-                            <a href="#">Lobster Roll</a><span>$12.95</span>
+                            <a>SCAMPI ALLA GRIGLIA</a><span>€20.95</span>
                         </div>
                         <div class="menu-ingredients">
-                            Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+                            Grote garnalen met knoflook van de grill
                         </div>
                     </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>ARAGOSTA ALLA GRIGLIA</a><span>€28.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Gegrilde kreeft met Italiaanse kruidenboter
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>ORATA AL FORNO</a><span>€22.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Hele gebakken dorade uit de oven
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>MISTO DI PESCE ALLA GRIGLIA</a><span>€25.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Verschillende soorten vis: sliptong, zalmfilet, gamba's en inktvisringen
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>FILETTI DI BRANZINO</a><span>€22.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Zeebaarsfilet met dille saus
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>SCAMPI AL FORNO</a><span>€22.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Grote garnalen in kreeftensaus
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>SALMONE ALLA GRIGLIA</a><span>€22.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Gegrilde zalm met kreeftensaus
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>SOGLIOLA AL FORNO</a><span>€30.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Zeetong
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-vis">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>FILETTI DI TILAPIA </a><span>€23.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Tilapiafilet met spinazie
+                        </div>
+                    </div>
+
+                    <!-- EINDE Vis gerechten -->
+
+                    <!-- Pastas -->
+
+                    <!-- EINDE Pastas -->
 
                 </div>
 
